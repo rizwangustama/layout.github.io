@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.bagianAtas {
+    margin-top: 100px;
+    background-color: #E4FAFF;
+    display: flex;
+}
+
+.kiri {
+    width: 300px;
+}
+
+.kiri img {
+    width: 150px;
+    display: block;
+    margin: 10px auto;
+}
+
+.kiri hr{
+   height: 7px;
+   background-color: #68E1FD;
+   border: none;
+   margin: none;
+}
+
+.konten {
+    text-align: center;
+    margin: 10px 30px;
+    width: 710px;
+}
+
+.konten p {
+    font-size: 17px;
+}
+
+.konten hr {
+    width: 200px;
+    margin: 10px auto;
+}
+.kanan {
+    width: 300px;
+}
+
+.kanan img {
+    width: 200px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
+
+/* Bagian Tengah */
+
+#bagianTengah {
+    font-family: 'Roboto', sans-serif;;
+    display: flex;
+    padding: 40px 40px 10px 40px;
+}
+
+#bagianTengah .satu {
+    float: left;
+    margin: auto;
+    margin-right: 5px;
+    background-color:  #E8A825;
+    width: 200px;
+    height: 1px;
+    border: none;
+}
+
+
+#bagianTengah .dua {
+    float: left;
+    margin: auto;
+    margin-left: 5px;
+    background-color:  #E8A825;
+    width: 200px;
+    border: none;
+    height: 1px;
+}
+
+
+#bagianTengah p {
+    float: left;
+    font-size: 30px;
+    color: #68E1FD;
+    font-weight: bold;
+}
+
+/* Bagian Bawah */
+
+#bagianBawah {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;;
+    /* position: relative; */
+    display: flex;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.rowKiri, .rowTengah, .rowKanan {
+    width: 500px;
+}
+
+#bagianBawah img {
+    display: block;
+    margin: 0 auto;
+}
+
+.judul {
+    text-align: center;
+    font-size: 30px;
+}
+
+.isi {
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 80px;
+}
+
+.latarbelakang {
+    background-color: #E4FAFF;
+    height: 190px;
+}
